@@ -16,6 +16,10 @@ public class Impresora {
         return paginasImpresas;
     }
 
+    public int getNivelToner() {
+        return nivelToner;
+    }
+    
     // METODOS
 
     public int anadirToner(int cantidadTonerEntre0y100) {
