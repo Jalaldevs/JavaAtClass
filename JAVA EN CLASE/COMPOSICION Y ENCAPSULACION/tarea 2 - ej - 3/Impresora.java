@@ -5,7 +5,7 @@ public class Impresora {
     private boolean conDobleCara;
 
     public Impresora(boolean conDobleCara) {
-        this.nivelToner = 10;
+        this.nivelToner = 0;
         this.paginasImpresas = 0;
         this.conDobleCara = conDobleCara;
     };
