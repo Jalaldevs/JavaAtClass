@@ -19,7 +19,7 @@ public class Impresora {
     // METODOS
 
     public int anadirToner(int cantidadTonerEntre0y100) {
-        if (cantidadTonerEntre0y100 < 0 || cantidadTonerEntre0y100 > 100 || 100 - cantidadTonerEntre0y100 > this.nivelToner) {
+        if (cantidadTonerEntre0y100 < 0 || cantidadTonerEntre0y100 > 100) {
             return -1;
         }
         return this.nivelToner = cantidadTonerEntre0y100;
